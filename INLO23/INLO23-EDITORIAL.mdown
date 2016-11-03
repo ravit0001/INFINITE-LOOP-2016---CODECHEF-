@@ -16,16 +16,15 @@ F(x,y) is a function which determines the performance of the super-computer.
  Here (x,y) is that pair of processes (y is always a sub-process of process x) where the difference between the factors of process x and process y is maximum.  
  You are required to find maximum value of G(x)-G(Y) .
 
-
 #EXPLANATION:
 This problem is completely based on Breadth-first search [BFS], which is used to  traversing or searching tree or graph data structures. It starts at the tree root 
 (or some arbitrary node of a graph, sometimes referred to as a 'search key') 
 and explores the neighbor nodes first, before moving to the next level neighbors.
 
-$Pseudocode$ :     
-$Input$: A graph Graph and a starting vertex root of Graph.  
+Pseudocode :     
+Input: A graph Graph and a starting vertex root of Graph.  
 
-$Output$: All vertices reachable from root labeled as explored.  
+Output: All vertices reachable from root labeled as explored.  
 
 A non-recursive implementation of breadth-first search:  
 
@@ -53,18 +52,18 @@ A non-recursive implementation of breadth-first search:
 20.                 Q.e
 </code> </pre>
 
-$Time and space complexity$.
+Time and space complexity.
   
-The time complexity can be expressed as  $O(|V|+|E|)$, since every vertex and every edge will be explored in the worst case.   
- |V| is the number of vertices and  $|E|$ is the number of edges in the graph. Note that $O(|E|)$ may vary between  $O(1)$ and  $O(|V|^{2})$, depending on how sparse the input graph is.  
+The time complexity can be expressed as  O(|V|+|E|), since every vertex and every edge will be explored in the worst case.   
+ |V| is the number of vertices and  |E| is the number of edges in the graph. Note that O(|E|) may vary between  O(1) and  O(|V|^{2}), depending on how sparse the input graph is.  
 
 
  So,the given question is an improvisation of Breadth-first search [BFS], you have to just store the maximum difference 
  of parent to its every childern. and store the maximum value between the parent and child at the child node.
  
- $Pseudocode$ :   
+ Pseudocode :   
  
-  <code>
+  <pre><code>
     while(!q.empty())
            int s=q.front()
             q.pop()
@@ -79,15 +78,13 @@ The time complexity can be expressed as  $O(|V|+|E|)$, since every vertex and ev
                            a[num]=a[s]
                         qu.push(adj[s][i])
                 
- </code> 
-=>>  $maxi$ is the required answer.
+ </code> </pre>
+=>>  maxi is the required answer.
  
 
 #AUTHOR'S AND TESTER'S SOLUTIONS:
 Author's solution can be found [here][333]. 
 
-
-#RELATED PROBLEMS:
 
 [111]: https://www.codechef.com/problems/INLO23
 [222]: https://www.codechef.com/INLO2016/problems/INLO23
