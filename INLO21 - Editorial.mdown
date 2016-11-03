@@ -14,23 +14,21 @@ Math,Implementation
 #PROBLEM:
 Total numbers of rectangles in a N×M grid
 
-
 #EXPLANATION:
-The Total numbers of rectangles in a N×M grid is ans = ((m×(m+1))/2)×((n×(n+1))/2);
+The Total numbers of rectangles in a N×M grid is ans = ((m×(m+1))/2)×((n×(n+1))/2);  
 
-ans=ans%1000000007;
+ans=ans%1000000007;  
 
-For example : if you need to find total number of rectangles in a 6×106×10 grid.
-a=6×(6+1)
-a=a/2
-b=10×(10+1)
-b=b/2
-ans=a×b
-ans= 21×55
-ans=1155
-ans=ans%1000000007;
-ans=1155
-
+For example : if you need to find total number of rectangles in a 6×106×10 grid.  
+a=6×(6+1)  
+a=a/2  
+b=10×(10+1)  
+b=b/2  
+ans=a×b  
+ans= 21×55  
+ans=1155  
+ans=ans%1000000007;  
+ans=1155  
 
 #AUTHOR'S AND TESTER'S SOLUTIONS:
 Author's solution can be found [here][333]. 
