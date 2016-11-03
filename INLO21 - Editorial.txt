@@ -1,0 +1,32 @@
+INLO21 - Editorial
+PROBLEM LINK:
+Practice
+Contest
+
+Author: RAVIT SINGH MALIK
+Editorialist: RAVIT SINGH MALIK
+
+DIFFICULTY:
+CAKEWALK
+
+PREREQUISITES:
+Math,Implementation
+
+PROBLEM:
+Total numbers of rectangles in a N×MN×M grid.
+
+EXPLANATION:
+The Total numbers of rectangles in a N×MN×M grid is ans = ((m×(m+1))/2)×((n×(n+1))/2)((m×(m+1))/2)×((n×(n+1))/2);
+
+ans=ans%1000000007;
+
+For example : if you need to find total number of rectangles in a 6×106×10 grid.
+a=6×(6+1)6×(6+1)
+a=a/2
+b=10×(10+1)10×(10+1)
+b=b/2
+ans=a×ba×b
+ans= 21×5521×55
+ans=1155
+ans=ans%1000000007;
+ans=1155
