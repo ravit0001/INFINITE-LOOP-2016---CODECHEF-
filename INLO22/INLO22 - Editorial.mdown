@@ -1,0 +1,49 @@
+#PROBLEM LINK:
+[Practice][111]  
+[Contest][222]
+
+**Author:** [RAVIT SINGH MALIK][4444]  
+**Editorialist:** [RAVIT SINGH MALIK][6666]
+
+#DIFFICULTY:
+EASY
+
+#PREREQUISITES:
+LOGIC,Implementation
+ 
+#PROBLEM:
+Find the number of cubies in a cube that has exactly two colors in a $n \times m \times o$  rubis's cube.
+
+
+#EXPLANATION:
+As we all know in $3 \times 3 \times 3$ cube $ 6$ cubies have only one color and they are present at the center of each 
+face. $8$ cubies have exactly three color and they are present only at the corners.
+and the cubies that have exactly two color which are present at each edge, and it is $ 12$.
+
+In a generalise manner for the cubies which have exactly $  2$ color are present only at edges.
+so,if a edge has length of $ 5$ unit then it has $(5-2)$ cubies have exactly $2$ color, and there are $4$ edges with
+$5$ unit so,$(5-2) \times 4$.
+In a cube we have $3$ length, $3$ breagth , $3$ height, so, if a cube has length $5$ ,breagth $6$ ,height $7$ ,    
+    <p>$a=(5-2)\times4;$</p>
+    <p>$b=(6-2)\times4;$</p>
+    <p>$c=(7-2)\times4;$</p>
+    <p>$ans=a+b+c;$</p>
+    
+
+ but,
+ <p>if(ans<=0)</p>
+ <p>ans=0;</p>
+ 
+ 
+#AUTHOR'S AND TESTER'S SOLUTIONS:
+Author's solution can be found [here][333]. 
+
+
+#RELATED PROBLEMS:
+
+[111]: https://www.codechef.com/problems/INLO22
+[222]: https://www.codechef.com/INLO2016/problems/INLO22
+[333]: https://www.codechef.com/viewsolution/11717807
+
+[4444]: http://www.codechef.com/users/ravit0001
+[6666]: http://www.codechef.com/users/ravit0001
