@@ -22,7 +22,7 @@ and the cubies that have exactly two color which are present at each edge, and i
 
 In a generalise manner for the cubies which have exactly <b> 2</b>color are present only at edges.
 so,if a edge has length of <b> 5</b> unit then it has </b>(5-2)</b> cubies have exactly <b>2</b> color, and there are <b>4</b> edges with
-$5$ unit so,<b>(5-2)</b> X <b>4</b>.
+<b>5</b> unit so,<b>(5-2)</b> X <b>4</b>.
 In a cube we have 3 length, 3 breagth , 3 height, so, if a cube has length <b>5</b> ,breagth <b>6</b> ,height <b>7</b> ,    
     <p><b>a=(5-2) X 4;</b></p>
     <p><b>b=(6-2) X 4;</b></p>
