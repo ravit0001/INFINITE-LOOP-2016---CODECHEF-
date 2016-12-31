@@ -12,22 +12,22 @@ EASY
 LOGIC,Implementation
  
 #PROBLEM:
-Find the number of cubies in a cube that has exactly two colors in a $n \times m \times o$  rubis's cube.
+Find the number of cubies in a cube that has exactly two colors in a<b> N</b> X <b>M</b> X <b>O</b>  rubis's cube.
 
 
 #EXPLANATION:
-As we all know in $3 \times 3 \times 3$ cube $ 6$ cubies have only one color and they are present at the center of each 
-face. $8$ cubies have exactly three color and they are present only at the corners.
-and the cubies that have exactly two color which are present at each edge, and it is $ 12$.
+As we all know in <b>3</b> X <b>3</b> X <b>3</b> cube <b> 6</b> cubies have only one color and they are present at the center of each 
+face. <b>8</b> cubies have exactly three color and they are present only at the corners.
+and the cubies that have exactly two color which are present at each edge, and it is <b>12</b>.
 
-In a generalise manner for the cubies which have exactly $  2$ color are present only at edges.
-so,if a edge has length of $ 5$ unit then it has $(5-2)$ cubies have exactly $2$ color, and there are $4$ edges with
-$5$ unit so,$(5-2) \times 4$.
-In a cube we have $3$ length, $3$ breagth , $3$ height, so, if a cube has length $5$ ,breagth $6$ ,height $7$ ,    
-    <p>$a=(5-2)\times4;$</p>
-    <p>$b=(6-2)\times4;$</p>
-    <p>$c=(7-2)\times4;$</p>
-    <p>$ans=a+b+c;$</p>
+In a generalise manner for the cubies which have exactly <b> 2</b>color are present only at edges.
+so,if a edge has length of <b> 5</b> unit then it has </b>(5-2)</b> cubies have exactly <b>2</b> color, and there are <b>4</b> edges with
+$5$ unit so,<b>(5-2)</b> X <b>4</b>.
+In a cube we have 3 length, 3 breagth , 3 height, so, if a cube has length <b>5</b> ,breagth <b>6</b> ,height <b>7</b> ,    
+    <p><b>a=(5-2) X 4;</b></p>
+    <p><b>b=(6-2) X 4;</b></p>
+    <p><b>c=(7-2) X 4;</b></p>
+    <p><b>ans=a+b+c;</b></p>
     
 
  but,
