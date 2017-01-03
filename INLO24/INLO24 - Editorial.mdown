@@ -1,0 +1,68 @@
+#PROBLEM LINK:
+[Practice][111]  
+[Contest][222]
+
+**Author:** [RAVIT SINGH MALIK][4444]  
+**Editorialist:** [RAVIT SINGH MALIK][6666]
+
+#DIFFICULTY:
+MEDIUM-HARD
+
+#PREREQUISITES:
+COMPLEXITY , NUMBER THEORY
+ 
+#PROBLEM:
+You have choose correct option for the given questions.
+
+
+#EXPLANATION:
+For question $1$.  
+    We have a list of pairs [("Tariq",71),("Brinda",85),("Shweta",71),("Sunita",85),("Salma",72),("Uday",60)], where each pair consists of a student's name and his/her marks in a course. We sort these pairs in ascending order of marks.
+    
+   so,the correct option is  
+ [("Uday",60),("Tariq",71),("Shweta",71),("Salma",72),("Brinda",85),("Sunita",85)]
+	  
+For question $2$.  
+    A theoretical measure of the execution of an algorithm, usually the time or memory needed, given the problem size n, which is usually the number of items. Informally, saying some equation f(n) = O(g(n)) means it is less than some constant multiple of g(n). The notation is read, "f of n is big oh of g of n".  
+f(n)= $O(n^4)$  
+g(n)=$O(n^4)$  
+f(n) is O(g(n)) and g(n) is O(f(n))  
+    For more information click [here][444]
+	
+For question $3$.  
+  Rajnikant has to complete 12 courses for his degree. There are six compulsory courses: Basic and Advanced Mathematics, Basic and Advanced Physics and Basic and Advanced Electronics. He also has to complete six Optional Courses. Each course takes one semester to complete. There are some constraints because of prerequisites.
+For Mathematics, Physics and Electronics, the Basic course must be completed before starting the Advanced course.
+Advanced Physics must be completed before starting Basic Electronics. 
+Advanced Mathematics must be completed before starting Advanced Physics.
+The Optional Courses can be done in any order, but no more than two Optional Courses can be taken in a semester.  
+  
+  1 sem = Basic Mathematics / Basic Physics  
+  2 sem = Advanced Mathematics /Basic Physics  
+  3 sem = Advanced Physics  
+  4 sem = Basic Electronics  
+  5 sem = Advanced Electronics
+  
+ And the six optional courses can be done in any order in any semester but not more than two in any semester 
+  
+For question $4$.  
+    Find the unit digit of the expresssion  
+    $374^{123}$ + $42^{14444}$ + $57^{226}$ + $33^{128}$ + $52^{5!}$  
+	=> $4^{123}$ + $2^{14444}$ + $7^{226}$ + $3^{128}$ + $2^{5!}$     
+	=> $4^{3} + 2^{0} + 7^{2} + 3^{0} + 2^{0}$   [123%4] [14444%4] [226%4] [128%4] [5!%4]  
+	=> 64 + 1 + 49 + 1 + 1  
+	=> 116 %10  
+	=> 6
+	
+
+#AUTHOR'S AND TESTER'S SOLUTIONS:
+Author's solution can be found [here][333]. 
+
+
+#RELATED PROBLEMS:
+
+[111]: https://www.codechef.com/problems/INLO24
+[222]: https://www.codechef.com/INLO2016/problems/INLO24
+[333]: https://www.codechef.com/viewsolution/11772839
+[444]: http://quiz.geeksforgeeks.org/algorithms/analysis-of-algorithms-recurrences/ 
+[4444]: http://www.codechef.com/users/ravit0001
+[6666]: http://www.codechef.com/users/ravit0001
