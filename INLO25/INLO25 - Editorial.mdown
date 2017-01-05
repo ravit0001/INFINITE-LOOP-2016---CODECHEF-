@@ -12,13 +12,13 @@ MEDIUM - HARD
 MATHS,NUMBER THEORY
  
 #PROBLEM:
-You are required to find the number of trailing $zeroes$ of F(n) = $1^{1!} \times 2^{2!} \times 3^{3!} $......$N^{N!}$  .
+You are required to find the number of trailing <b>zeroes</b> of F(n) = <b>1<sup>1!</sup> X 2<sup>2!</sup> X 3<sup>3!</sup> </b>......<b>N<sup>N!</sup></b>  .
 
 
 #EXPLANATION:
-suppose you have to find the number of zeroes in a product.$ 24 \times 32 \times 23 \times 19$ = $ 2^{3} \times 3^{1} \times 2^{5} \times 23 \times 19 $ as you can notice, this product will have no zeroes because it has no 5 in it.  
-however, if you have expression like: $23\times39\times32\times125=2^{5}\times3\times5^{3}\times11\times23 $ 
-Zeroes are formed by the combination of $2\times5$. Hence,the number of zeroes will depend on number of pairs of 2's and 5's that can be formed. In the above product, there are five twos and three fives.Hence, ther will be 3 Zeroes in the product.
+suppose you have to find the number of zeroes in a product.<b> 24 X 32 X 23 X 19</b> = <b> 2<sup>3</sup> X 3<sup>1</sup> X 2<sup>5</sup> X 23 X 19 </b> as you can notice, this product will have no zeroes because it has no 5 in it.  
+however, if you have expression like: <b>23 X 39 X 32 X 125=2<sup>5</sup> X 3 X 5<sup>3</sup> X 11 X 23 </b> 
+Zeroes are formed by the combination of <b>2 X 5</b>. Hence,the number of zeroes will depend on number of pairs of 2's and 5's that can be formed. In the above product, there are five twos and three fives.Hence, ther will be 3 Zeroes in the product.
 
 Find the number of trailing zeroes in 101!
 Okay, how many multiples of 5 are there in the numbers from 1 to 101? There's 5, 10, 15, 20, 25,...
@@ -40,8 +40,8 @@ I'll apply the procedure from above:
 56 :  4617 ÷ 15625 = 0.295488, which is less than 1, so I stop here.  
 Then 4617! has 923 + 184 + 36 + 7 + 1 = 1151 trailing zeroes.  
 
-In the given problem You are required to find the number of trailing zeroes of F(n) = $1^{1!} \times 2^{2!} \times 3^{3!} ......N^{N!}$ so, if n=6
- hence no,of twos is $ 2!+2\times4!+2\times6! $ and no. of fives are 5! so,clearly the fives will be less than twos. Hence, we need to count only the fives. Thus: 5!=120 
+In the given problem You are required to find the number of trailing zeroes of F(n) = <b>1<sup>1!</sup> X 2<sup>2!</sup> X 3<sup>3!</sup> </b>......<b>N<sup>N!</sup></b> so, if n=6
+ hence no,of twos is <b> 2!+2 X 4!+2 X 6! </b> and no. of fives are 5! so,clearly the fives will be less than twos. Hence, we need to count only the fives. Thus: 5!=120 
  so,thus the f(6) has 120 trailing zeroes.
  
 #AUTHOR'S AND TESTER'S SOLUTIONS:
